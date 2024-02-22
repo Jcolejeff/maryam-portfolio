@@ -1,6 +1,6 @@
 import image1 from "./assets/images/burh.png";
-import image2 from "./assets/images/carsng.png";
-import image3 from "./assets/images/coverly.png";
+import image2 from "./assets/images/techpression.jpg";
+import image3 from "./assets/images/tanta.jpg";
 const Projects = [
 	{
 		id: "recAGJfiU4CeaV0HL",
@@ -29,55 +29,57 @@ const Projects = [
 		purpose:
 			"For Burtech, a manufacturing company client, our objective was to address the need for an enhanced online presence and operational efficiency. Our aim was to develop a secure, user-friendly web application that could facilitate seamless online payments while showcasing their products in a structured and streamlined manner. ",
 		live: "https://burtechproducts.com",
-		coderepo: "https://github.com/Jcolejeff/Clasik-Drip-Wears",
+		coderepo: "",
 	},
 	{
 		id: "recIL6mJNfWObonls",
-		title: "Cars.ng",
-		stack: ["php", "laravel", "fast api", "bootstrap"],
+		title: "Tech pression",
+		stack: ["next.js", "wordpress", "tailwind css", "shad cn"],
 		explanation:
-			"i used shortcode Api for the url shortening ,CSS in js is my go-to for styling in React apps. Great things have been said about it already, and my preferred tool for that is Styled-components, mainly because it lets you write actual CSS and it's popular.",
+			"i used Next.js for a fast and seamless user experience, Tailwind CSS ensuring a modern and engaging interface across devices, and WordPress serves as the CMS tool, allowing effortless creation, editing, and organization of blog posts",
 		shortDesc:
-			"is a Nigerian online car marketplace and solutions provider that connects car buyers and car sellers. Providing a vast inventory of new and used cars with their descriptions, quality images, affordable prices and car suggestions to make the search and purchase of the perfect vehicle in Nigeria effortless and enjoyable.",
+			"Tech pression Blog is a dynamic and visually appealing tech blog site designed to deliver the latest insights and updates from the ever-evolving world of technology",
 		image: image2,
 		wrappingUp:
-			"In conclusion, this project presented an opportunity for me to enhance my skills and explore new technologies. I successfully implemented a redesigned frontend, migrated from MySQL to a fast API REST API, and improved SEO. By leveraging PHP with Laravel for backend development, Fast API for the REST API, Bootstrap for frontend design.",
+			"In conclusion, this project presented an opportunity for me to enhance my skills and explore new technologies. I successfully implemented and designed the frontend by leveraging shadcn and tailwind css and wordpress as a CMS tool.",
 		requirement:
 			"As always, apart from the bare minimum that the resultant website must be fast and responsive. I had a few requirements in mind to be able to call this project a success.The resulting website must match the design on the design file.",
 		challenge:
-			"It was fairly challenging rewriting the project, but with a lot of googling and checking online resources, I was able to tackle the issues",
+			"It was fairly challenging integrating wordpress, but with a lot of googling and checking online resources, I was able to tackle the issues",
 		purpose:
-			"The purpose of this project was to rewrite the frontend, migrate from MySQL to a fast API REST API, and improve SEO. The goals included enhancing code quality, optimizing the user interface, boosting performance, introducing new features, and improving search engine optimization. By achieving these objectives, the project aimed to deliver an improved frontend application with better performance, seamless API integration, and enhanced visibility in search engine results.",
-		live: "https://cars.ng/",
-		coderepo: "https://github.com/Jcolejeff/url-shortner",
+			"The purpose of the project is to create a visually appealing tech blog site designed to deliver the latest insights and updates from the ever-evolving world of technology",
+		live: "https://pression-tech.vercel.app/",
+		coderepo: "",
 	},
 	{
 		id: "rec61x18GVY99hQq5",
-		title: "Coverly",
+		title: "Tanta innovatives",
 		stack: [
-			"react",
-			"tailwind",
-			"Gpt-3 Api",
-			"react-reveal",
-			"nodejs",
-			"express",
-			"mongodb",
+			"next.js",
+			// "tailwind",
+			// "Gpt-3 Api",
+			// "react-reveal",
+			// "nodejs",
+			// "express",
+			// "mongodb",
+			"chakra ui",
+			"styled components",
 		],
 		explanation:
-			"Because of the simplicity of its state management and the variety of accessible packages, React was an obvious choice for this project.I used React-Reveal for the  animation because it's simple and fits in my use case , styled components for styling and Open TBD api to get the questions",
+			"Crafted with Next.js, the site combines the power of server-side rendering for optimal performance and SEO. Chakra ui and styled components were used to achieve the UI",
 		image: image3,
 		wrappingUp:
-			"In conclusion, this project successfully developed a cover letter generator app using React, Tailwind CSS, GPT-3 API, React Reveal, Node.js, Express.js, and MongoDB. The app provides a user-friendly interface, personalized cover letter generation, and engaging animations. The project achieved its goal of simplifying and enhancing the cover letter writing process using advanced technologies.",
+			"In conclusion, this project was successfully developed using next.js, chakra UI and styled components. ",
 		shortDesc:
-			"is an outstanding and efficient website that helps job seekers to generate cover letters for any position.  create unique Cover letters using AI",
+			"Tanta innovatives is a sophisticated IT consulting website designed to showcase expertise and provide a seamless user experience. Also providing businesses with software soulutions",
 		requirement:
-			"The project required developing a cover letter generator app with the capability to automatically generate personalized cover letters using Gtp 3. Integration with user-uploaded CV or resume was essential to extract relevant information. The app aimed to provide a user-friendly interface for easy navigation and access to high-quality cover letter content. Ensuring data security and privacy was also a key requirement.",
+			"The project required developing a website which showcases in many different ways how Tanta innovatives offers a range of IT solutions to businesses and individuals",
 		challenge:
-			"One of the challenges we encountered was integrating and utilizing GPT-3 for cover letter generation. This involved understanding and optimizing the GPT-3 capabilities to generate high-quality and personalized cover letters. Additionally, fine-tuning the model and managing the API usage efficiently were areas that required careful attention.Extracting and integrating data from user-uploaded CV or resume, ensuring accurate language processing, and designing a user-friendly interface.",
+			"The project was quite straight forward as most components were static",
 		purpose:
-			"The purpose of the project was to develop Coverly, a cover letter generator app that utilizes AI technology. The goal was to create unique and personalized cover letters for users based on their CV or resume, along with additional information. Coverly aimed to simplify the cover letter creation process and generate tailored cover letters that showcased the user's qualifications and individuality.",
-		live: "https://coverly.hng.tech/",
-		coderepo: "https://github.com/Jcolejeff/quizApp",
+			"Whether you're seeking IT solutions, consulting services, or industry insights, Tanta innovatives is your trusted partner in navigating the complexities of the digital landscape.",
+		live: "https://www.tantainnovatives.com/",
+		coderepo: "",
 	},
 ];
 export default Projects;
