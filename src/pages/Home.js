@@ -20,7 +20,9 @@ const Home = () => {
 
 				<h1>
 					<p>
-						my name is <ColorWord color="pink">ikwuh jeffery enokela</ColorWord>
+						my name is <ColorWord color="pink">
+	Maryam Shuaibu
+	</ColorWord>
 					</p>
 					<p>
 						i'm a{" "}
